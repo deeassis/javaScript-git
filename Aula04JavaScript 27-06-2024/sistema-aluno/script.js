@@ -8,7 +8,7 @@ button.addEventListener("click", function(event) {
 
     if (inputNota.value >= 6 ){
         alert("Você está Aprovado");
-    } else(inputNota.value <= 5); {
+    } else if(inputNota.value <= 5); {
         alert("Você está Reprovado")
     
     }});
