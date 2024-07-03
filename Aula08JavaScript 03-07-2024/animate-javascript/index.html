@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres do documento como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura a escala inicial para dispositivos móveis -->
+    <title>Animação com Imagem</title>
+    <style>
+        #Imagem {
+            position: absolute; /* Define a posição absoluta para a imagem */
+            left: 0; /* Posiciona a imagem no extremo esquerdo */
+            top: 50px; /* Posiciona a imagem 50 pixels abaixo do topo */
+            transition: left 1s; /* Transição suave de 1 segundo para a propriedade 'left' */
+        }
+    </style>
+</head>
+<body>
+    <button id="btnMoverImagem">Mover Imagem</button> <!-- Botão para acionar a animação da imagem -->
+    <hr> <!-- Linha horizontal para separação visual -->
+    <img id="Imagem" src="http://lorempixel.com.br/150/150/" alt=""> <!-- Imagem a ser animada, com ID 'Imagem' -->
+    <script src="script.js"></script> <!-- Inclusão do arquivo JavaScript para manipulação -->
+</body>
+</html>
