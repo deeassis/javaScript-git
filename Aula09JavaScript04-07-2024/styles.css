@@ -1,0 +1,77 @@
+ /* Estilos para a calculadora */
+ .calculator {
+    max-width: 300px;
+    /* Largura máxima da calculadora */
+    margin: 50px auto;
+    /* Centraliza a calculadora horizontalmente com margem superior e inferior de 50px */
+    padding: 20px;
+    /* Espaçamento interno de 20px dentro da calculadora */
+    border: 1px solid #ccc;
+    /* Borda sólida de 1px com cor cinza claro */
+    border-radius: 5px;
+    /* Cantos arredondados com raio de 5px */
+    background-color: #f9f9f9;
+    /* Cor de fundo cinza claro */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Sombra suave para efeito elevado */
+    text-align: center;
+    /* Centraliza o texto dentro da calculadora */
+    font-family: Arial, sans-serif;
+    /* Define a família de fontes */
+}
+
+/* Estilos para os campos de entrada */
+.input-field {
+    width: calc(50% - 10px);
+    /* Largura dos campos de entrada calculada como metade da largura da calculadora menos 10px de espaçamento */
+    margin: 10px;
+    /* Margem ao redor dos campos de entrada */
+    padding: 8px;
+    /* Espaçamento interno dentro dos campos de entrada */
+    border: 1px solid #ccc;
+    /* Borda sólida com cor cinza claro */
+    border-radius: 3px;
+    /* Cantos levemente arredondados com raio de 3px */
+}
+
+/* Estilos para os botões de operação */
+.btn-operation {
+    width: 40px;
+    /* Largura dos botões */
+    height: 40px;
+    /* Altura dos botões */
+    margin: 0 5px;
+    /* Margem entre os botões */
+    padding: 10px;
+    /* Espaçamento interno dentro dos botões */
+    font-size: 20px;
+    /* Tamanho da fonte dos ícones de operação */
+    background-color: #007bff;
+    /* Cor de fundo dos botões */
+    color: #fff;
+    /* Cor do texto nos botões */
+    border: none;
+    /* Remove a borda dos botões */
+    border-radius: 5px;
+    /* Cantos arredondados dos botões com raio de 5px */
+    cursor: pointer;
+    /* Cursor do mouse ao passar sobre os botões */
+    transition: background-color 0.3s ease;
+    /* Transição suave na mudança de cor de fundo */
+}
+
+/* Estilos para os botões de operação quando o mouse está sobre eles */
+.btn-operation:hover {
+    background-color: #0056b3;
+    /* Cor de fundo mais escura ao passar o mouse sobre os botões */
+}
+
+/* Estilos para a área de resultado */
+.result {
+    margin-top: 20px;
+    /* Margem superior da área de resultado */
+    font-size: 24px;
+    /* Tamanho da fonte do resultado */
+    font-weight: bold;
+    /* Texto em negrito para destacar o resultado */
+}

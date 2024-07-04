@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="calculator">
+        <!-- Campos de entrada -->
+        <input type="text" id="valor1" class="input-field" placeholder="Digite o primeiro valor">
+        <input type="text" id="valor2" class="input-field" placeholder="Digite o segundo valor">
+
+        <!-- <!--Botões de operação  -->
+       <!-- class="btn-operation": Classe para aplicar estilos comuns a todos os botões de operação. -->
+
+        <div class="buttons">
+            <button id="btnSomar" class="btn-operation">+</button>
+            <button id="btnSubtrair" class="btn-operation">-</button>
+            <button id="btnDividir" class="btn-operation">/</button>
+            <button id="btnMultiplicar" class="btn-operation">*</button>
+        </div>
+
+        <!-- Área de resultado -->
+        <div id="resultado" class="result"></div>
+    </div>
+
+    <!-- Script JavaScript para funcionalidade da calculadora -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
